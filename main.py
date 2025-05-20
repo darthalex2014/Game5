@@ -143,7 +143,7 @@ while running:
         draw_text(screen, "Press Q to Quit", message_font, WHITE, 0, SCREEN_HEIGHT // 2 + TILE_SIZE, center_x_on_y=True)
 
     pygame.display.flip()
-    clock.tick(60)
+    clock.tick(15)
 
 # Quit Pygame
 pygame.quit()
